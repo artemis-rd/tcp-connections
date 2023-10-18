@@ -19,8 +19,8 @@
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./apps/tcp-connections-railway/test/jest-e2e.json",
     "build:two": "nest build service-two",
-    "build:one": "nest build tcp-connections-railway",
-    "start:one": "nest start tcp-conncetions-railway",
+    "build:one": "nest build service-one",
+    "start:one": "nest start service-one",
     "start:two": "nest start service-two"
   },
   "dependencies": {
